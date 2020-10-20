@@ -82,14 +82,6 @@ namespace IgniteQueryEntityAffinityRepro
                     TableName = tableName
                 })
             {
-                KeyConfiguration = new[]
-                {
-                        new CacheKeyConfiguration()
-                        {
-                            AffinityKeyFieldName = "PartnerId",
-                            TypeName = typeof(TEntity).FullName
-                        }
-                },
                 SqlIndexMaxInlineSize = 1024,
                 SqlSchema = "PUBLIC",
                 AtomicityMode = CacheAtomicityMode.Transactional,
