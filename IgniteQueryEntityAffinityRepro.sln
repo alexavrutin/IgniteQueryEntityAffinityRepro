@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniteQueryEntityAffinityRepro", "IgniteQueryEntityAffinityRepro.csproj", "{36D46984-A82B-4683-A019-B7BDFA145354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D46984-A82B-4683-A019-B7BDFA145354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D46984-A82B-4683-A019-B7BDFA145354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D46984-A82B-4683-A019-B7BDFA145354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D46984-A82B-4683-A019-B7BDFA145354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01EA244F-F9BD-414C-B4E3-BAD1348F5C16}
+	EndGlobalSection
+EndGlobal
